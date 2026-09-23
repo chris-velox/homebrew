@@ -5,14 +5,14 @@
 				"json": "CHNLR",
 				"abbreviation": "CHNLR",
 				"full": "Channeler",
+				"url": "https://www.drivethrurpg.com/m/product/260162",
+				"version": "1.0",
 				"authors": [
 					"C.J. Leung"
 				],
 				"convertedBy": [
 					"Modnar"
 				],
-				"version": "1.0",
-				"url": "https://www.drivethrurpg.com/m/product/260162",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -22,8 +22,10 @@
 			"ManI": "Aspect Manifestations (Myrmidon)",
 			"ManH": "Aspect Manifestations (Harmonic)"
 		},
+		"edition": "classic",
 		"dateAdded": 1548505822,
-		"dateLastModified": 1548505822
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "ebcd1fb859"
 	},
 	"class": [
 		{
@@ -38,13 +40,9 @@
 				"cha"
 			],
 			"startingProficiencies": {
-				"armor": [
-					"none"
-				],
 				"weapons": [
 					"simple"
 				],
-				"tools": [],
 				"skills": [
 					{
 						"choose": {
@@ -233,356 +231,18 @@
 				}
 			],
 			"subclassTitle": "Phantasmal Aspects",
-			"subclasses": [
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Channeler",
+			"source": "CHNLR",
+			"entries": [
 				{
-					"name": "Chronos Avenger",
-					"subclassFeatures": [
-						"Phantasm Proficiency (Lv 1)|Channeler|CHNLR|Chronos Avenger|CHNLR|1",
-						"Past Object|Channeler|CHNLR|Chronos Avenger|CHNLR|1",
-						"Deadly precision (Lv 3)|Channeler|CHNLR|Chronos Avenger|CHNLR|3",
-						"Multiattack (Lv 5)|Channeler|CHNLR|Chronos Avenger|CHNLR|5",
-						"Evasion (Lv 7)|Channeler|CHNLR|Chronos Avenger|CHNLR|7",
-						"Time Slip (Lv 9)|Channeler|CHNLR|Chronos Avenger|CHNLR|9",
-						"Follow-Up Strike (Lv 11)|Channeler|CHNLR|Chronos Avenger|CHNLR|11",
-						"Phantasmal Protection (Lv 13)|Channeler|CHNLR|Chronos Avenger|CHNLR|13",
-						"Window to the Past (Lv 17)|Channeler|CHNLR|Chronos Avenger|CHNLR|17",
-						"Split Time (Lv 20)|Channeler|CHNLR|Chronos Avenger|CHNLR|20"
-					]
-				},
-				{
-					"name": "Iron Myrmidon",
-					"subclassFeatures": [
-						"Phantom Shield (Lv 1)|Channeler|CHNLR|Iron Myrmidon|CHNLR|1",
-						"Control Metal|Channeler|CHNLR|Iron Myrmidon|CHNLR|1",
-						"Phantasmal Arsenal|Channeler|CHNLR|Iron Myrmidon|CHNLR|3",
-						"Multiattack (Lv 5)|Channeler|CHNLR|Iron Myrmidon|CHNLR|5",
-						"Shield Protection (Lv 7)|Channeler|CHNLR|Iron Myrmidon|CHNLR|7",
-						"Chrome Juggernaut (Lv 9)|Channeler|CHNLR|Iron Myrmidon|CHNLR|9",
-						"Invisible Arsenal|Channeler|CHNLR|Iron Myrmidon|CHNLR|11",
-						"Phantasmal Protection|Channeler|CHNLR|Iron Myrmidon|CHNLR|13",
-						"Chrome Block|Channeler|CHNLR|Iron Myrmidon|CHNLR|17",
-						"Storm of Steel|Channeler|CHNLR|Iron Myrmidon|CHNLR|20"
-					]
-				},
-				{
-					"name": "Harmonic Magician",
-					"subclassTableGroups": [
-						{
-							"subclasses": [
-								{
-									"name": "Harmonic Magician",
-									"source": "PHB"
-								}
-							],
-							"colLabels": [
-								"{@filter Cantrips Known|spells|level=0|subclass=Harmonic Magician}",
-								"{@filter Spells Known|spells|subclass=Harmonic Magician}"
-							],
-							"rows": [
-								[
-									3,
-									0
-								],
-								[
-									3,
-									3
-								],
-								[
-									3,
-									4
-								],
-								[
-									4,
-									5
-								],
-								[
-									4,
-									6
-								],
-								[
-									4,
-									7
-								],
-								[
-									4,
-									8
-								],
-								[
-									4,
-									9
-								],
-								[
-									4,
-									10
-								],
-								[
-									5,
-									10
-								],
-								[
-									5,
-									11
-								],
-								[
-									5,
-									11
-								],
-								[
-									5,
-									12
-								],
-								[
-									5,
-									12
-								],
-								[
-									5,
-									13
-								],
-								[
-									5,
-									13
-								],
-								[
-									5,
-									14
-								],
-								[
-									5,
-									14
-								],
-								[
-									5,
-									15
-								],
-								[
-									5,
-									15
-								]
-							]
-						},
-						{
-							"title": "Spell Slots per Spell Level",
-							"subclasses": [
-								{
-									"name": "Harmonic Magician",
-									"source": "PHB"
-								}
-							],
-							"colLabels": [
-								"{@filter 1st|spells|level=1|subclass=Harmonic Magician}",
-								"{@filter 2nd|spells|level=2|subclass=Harmonic Magician}",
-								"{@filter 3rd|spells|level=3|subclass=Harmonic Magician}",
-								"{@filter 4th|spells|level=4|subclass=Harmonic Magician}",
-								"{@filter 5th|spells|level=5|subclass=Harmonic Magician}"
-							],
-							"rows": [
-								[
-									0,
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									2,
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									3,
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									3,
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									4,
-									2,
-									0,
-									0,
-									0
-								],
-								[
-									4,
-									2,
-									0,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									0,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									0,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									2,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									2,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									1,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									1,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									2,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									2,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									3,
-									1
-								],
-								[
-									4,
-									3,
-									3,
-									3,
-									1
-								],
-								[
-									4,
-									3,
-									3,
-									3,
-									2
-								],
-								[
-									4,
-									3,
-									3,
-									3,
-									2
-								]
-							]
-						}
-					],
-					"subclassFeatures": [
-						"Phantasm Spellcasting (Lv 1)|Channeler|CHNLR|Harmonic Magician|CHNLR|1",
-						"Phantom Sonar (Lv 1)|Channeler|CHNLR|Harmonic Magician|CHNLR|1",
-						"Soul Magic|Channeler|CHNLR|Harmonic Magician|CHNLR|3",
-						"Phantasm Ritual|Channeler|CHNLR|Harmonic Magician|CHNLR|3",
-						"Spell Burn|Channeler|CHNLR|Harmonic Magician|CHNLR|5",
-						"Soothing sound|Channeler|CHNLR|Harmonic Magician|CHNLR|7",
-						"Discordant Wave|Channeler|CHNLR|Harmonic Magician|CHNLR|9",
-						"Invisible spells|Channeler|CHNLR|Harmonic Magician|CHNLR|11",
-						"Phantasmal Protection|Channeler|CHNLR|Harmonic Magician|CHNLR|13",
-						"Arcane Encore|Channeler|CHNLR|Harmonic Magician|CHNLR|17",
-						"Spell Echo|Channeler|CHNLR|Harmonic Magician|CHNLR|20"
-					],
-					"cantripProgression": [
-						3,
-						3,
-						3,
-						4,
-						4,
-						4,
-						4,
-						4,
-						4,
-						5,
-						5,
-						5,
-						5,
-						5,
-						5,
-						5,
-						5,
-						5,
-						5,
-						5
-					],
-					"spellsKnownProgression": [
-						0,
-						3,
-						4,
-						5,
-						6,
-						7,
-						8,
-						9,
-						10,
-						10,
-						11,
-						11,
-						12,
-						12,
-						13,
-						13,
-						14,
-						14,
-						15,
-						15
-					]
-				}
-			],
-			"fluff": [
-				{
+					"source": "CHNLR",
 					"entries": [
-						"Yeoww! He... he broke me nose! I cannae see ‘im move, but I swear it's ‘im!\" The hysterical brigand drew weird looks from his collaborators as he accuses the stranger tightly bound to the chair to be his assailant.",
+						"Yeoww! He... he broke me nose! I cannae see 'im move, but I swear it's 'im!\" The hysterical brigand drew weird looks from his collaborators as he accuses the stranger tightly bound to the chair to be his assailant.",
 						"Yysota turns around and immediately realises her mistake. \"Go!\" She reflexiely cried out her command, and a blue streak shoots through the air, catching the assassins' dark blades in the air before they can be sunk into her brother's back. A floating ethereal shield? The cautious Daggermark minions leapt back. Is this even magic?",
 						"As the young man's chanting intensified,  lightning arcs danced around the tip of his index finger. Reckoning the incoming spell, the hobgoblin captain motioned his band to form a row in his native guttural language.\"Magic! Fan out!\" In return, the young man smirked and a bolt of lightning suddenly appeared from an impossible angle and skewered the whole row of them from side to side.",
 						"Droplets of rain hung in the air, horses float mid gait and the fast flying arrow is currently inches away from his elven companion's throat. He sighs, adjusts his hat and scratches his stubbles before casually plucking the arrow out of the air.  \"Constant vigilance in enemy territory, I said, and does she listen?\" He will give her an earful once time starts moving again.",
@@ -627,734 +287,365 @@
 			]
 		}
 	],
-	"monster": [
+	"subclass": [
 		{
+			"name": "Chronos Avenger",
+			"shortName": "Chronos Avenger",
 			"source": "CHNLR",
-			"name": "Chronos Avenger ",
-			"size": "M",
-			"type": "aberration",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"natural armor",
-						"The Channeler's Wisdom Modifier"
-					]
-				}
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d6"
-			},
-			"speed": {
-				"fly": 30,
-				"walk": 0
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"immune": [
-				"psychic",
-				"poison"
-			],
-			"passive": 12,
-			"cr": "1/2",
-			"trait": [
-				{
-					"name": "Incorporeal Movement.",
-					"entries": [
-						"The phantasm can move through other creatures and objects as if they were difficult terrain. It takes {@dice 1d10} force damage if it ends its turn inside an object."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Unarmed Strike",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				},
-				{
-					"name": "Spike",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Opportunity Attack",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				},
-				{
-					"name": "Help",
-					"entries": [
-						"Grants advantage to allies against one creature it threatens."
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"Broodlings and Harbingers perpetuate the practice of evolution by consumption within the sliver hive, the most important function in the hive: seek out new abilities to add to the hive's collection.",
-					"In the early stages of a hive's development, it is imperative to send out hunting parties. Collecting biological material for the hive to consume, so that it can acclimate to its surroundings and produce deadlier slivers.",
-					"Add the Phantom Blade's charisma modifier to its AC & HP"
-				]
-			},
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MW"
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassFeatures": [
+				"Phantasm Proficiency (Lv 1)|Channeler|CHNLR|Chronos Avenger|CHNLR|1",
+				"Past Object|Channeler|CHNLR|Chronos Avenger|CHNLR|1",
+				"Deadly precision (Lv 3)|Channeler|CHNLR|Chronos Avenger|CHNLR|3",
+				"Multiattack (Lv 5)|Channeler|CHNLR|Chronos Avenger|CHNLR|5",
+				"Evasion (Lv 7)|Channeler|CHNLR|Chronos Avenger|CHNLR|7",
+				"Time Slip (Lv 9)|Channeler|CHNLR|Chronos Avenger|CHNLR|9",
+				"Follow-Up Strike (Lv 11)|Channeler|CHNLR|Chronos Avenger|CHNLR|11",
+				"Phantasmal Protection (Lv 13)|Channeler|CHNLR|Chronos Avenger|CHNLR|13",
+				"Window to the Past (Lv 17)|Channeler|CHNLR|Chronos Avenger|CHNLR|17",
+				"Split Time (Lv 20)|Channeler|CHNLR|Chronos Avenger|CHNLR|20"
 			]
 		},
 		{
-			"source": "CHNLR",
-			"name": "Iron Myrmidon",
-			"size": "M",
-			"type": "aberration",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"natural armor",
-						"The Channeler's Wisdom Modifier"
-					]
-				}
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d6"
-			},
-			"speed": {
-				"fly": 30,
-				"walk": 0
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"immune": [
-				"psychic",
-				"poison"
-			],
-			"passive": 12,
-			"cr": "1/2",
-			"trait": [
-				{
-					"name": "Incorporeal Movement.",
-					"entries": [
-						"The phantasm can move through other creatures and objects as if they were difficult terrain. It takes {@dice 1d10} force damage if it ends its turn inside an object."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Unarmed Strike",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				},
-				{
-					"name": "Spike",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Opportunity Attack",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				},
-				{
-					"name": "Help",
-					"entries": [
-						"Grants advantage to allies against one creature it threatens."
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"Broodlings and Harbingers perpetuate the practice of evolution by consumption within the sliver hive, the most important function in the hive: seek out new abilities to add to the hive's collection.",
-					"In the early stages of a hive's development, it is imperative to send out hunting parties. Collecting biological material for the hive to consume, so that it can acclimate to its surroundings and produce deadlier slivers.",
-					"Add the Phantom Blade's charisma modifier to its AC & HP"
-				]
-			},
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			]
-		},
-		{
-			"source": "CHNLR",
 			"name": "Harmonic Magician",
-			"size": "S",
-			"type": "aberration",
-			"alignment": [
-				"U"
+			"shortName": "Harmonic Magician",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
 			],
-			"ac": [
+			"spellsKnownProgression": [
+				0,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12,
+				13,
+				13,
+				14,
+				14,
+				15,
+				15
+			],
+			"subclassTableGroups": [
 				{
-					"ac": 14,
-					"from": [
-						"natural armor",
-						"The Channeler's Wisdom Modifier"
-					]
-				}
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d6"
-			},
-			"speed": {
-				"fly": 30,
-				"walk": 0
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"immune": [
-				"psychic",
-				"poison"
-			],
-			"passive": 12,
-			"cr": "1/2",
-			"trait": [
-				{
-					"name": "Incorporeal Movement.",
-					"entries": [
-						"The phantasm can move through other creatures and objects as if they were difficult terrain. It takes {@dice 1d10} force damage if it ends its turn inside an object."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Unarmed Strike",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					"subclasses": [
+						{
+							"name": "Harmonic Magician",
+							"source": "PHB"
+						}
+					],
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|subclass=Harmonic Magician}",
+						"{@filter Spells Known|spells|subclass=Harmonic Magician}"
+					],
+					"rows": [
+						[
+							3,
+							0
+						],
+						[
+							3,
+							3
+						],
+						[
+							3,
+							4
+						],
+						[
+							4,
+							5
+						],
+						[
+							4,
+							6
+						],
+						[
+							4,
+							7
+						],
+						[
+							4,
+							8
+						],
+						[
+							4,
+							9
+						],
+						[
+							4,
+							10
+						],
+						[
+							5,
+							10
+						],
+						[
+							5,
+							11
+						],
+						[
+							5,
+							11
+						],
+						[
+							5,
+							12
+						],
+						[
+							5,
+							12
+						],
+						[
+							5,
+							13
+						],
+						[
+							5,
+							13
+						],
+						[
+							5,
+							14
+						],
+						[
+							5,
+							14
+						],
+						[
+							5,
+							15
+						],
+						[
+							5,
+							15
+						]
 					]
 				},
 				{
-					"name": "Spike",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Opportunity Attack",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
-					]
-				},
-				{
-					"name": "Help",
-					"entries": [
-						"Grants advantage to allies against one creature it threatens."
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"Broodlings and Harbingers perpetuate the practice of evolution by consumption within the sliver hive, the most important function in the hive: seek out new abilities to add to the hive's collection.",
-					"In the early stages of a hive's development, it is imperative to send out hunting parties. Collecting biological material for the hive to consume, so that it can acclimate to its surroundings and produce deadlier slivers.",
-					"Add the Phantom Blade's charisma modifier to its AC & HP"
-				]
-			},
-			"damageTags": [
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			]
-		}
-	],
-	"optionalfeature": [
-		{
-			"name": "Defensive Posture ",
-			"entries": [
-				"Only before using your action, you can use your bonus action to command your phantasm to move into your space and envelop you with its protective force, providing you with +2 bonus to your AC until the start of your next turn. While this bonus is in effect, your phantasm becomes visible and is tethered to your space. This will cause your phantasm to appear if it's in its pocket dimension."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Eagle Vision",
-			"entries": [
-				"You can expend Soul Dice on Intelligence (Investigation) and Wisdom (Perception) skill checks. You can roll the Soul Dice you've spent and add the result to the check."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Healing Energy",
-			"entries": [
-				"You can use your action to spend your Soul Dice to heal a target creature. You roll the number of dice you have spent and add your Charisma modifier to the result. The creature regain that many hitpoints. Once a creature has regained hit points from this manifestation, it can't do so again until it finishes a long rest."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Master of Lies",
-			"entries": [
-				"You can expend Soul Dice on Charisma (Deception) and Wisdom (Insight) skill checks. You can roll the Soul Dice you've spent and add the result to the creck."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Prodigious Escape",
-			"entries": [
-				"When you use your action to dash, you are disengaged and your movement speed increases by 10 feet until the end of the turn."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Physical Enhancements",
-			"entries": [
-				"You can expend Soul Dice on Strength (Athletics) or Dexterity (Acrobatics) checks. You can roll the Soul Dice you've spent and add the result to the ability roll."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Use Objects",
-			"entries": [
-				"You can use your action to command your phantasm to carry, move and manipulate an object weighing up to 10 pounds. While the object is being carried by the phantasm, it is invisible to anyone other than channelers and creatures with truesight. Spells & effects such as Faery Fire & See Invisibility will reveal the object. You can also command the phantasm with your action to use the item it's carrying, such as a bag of caltrops, poison or a healing potion. However, this manifestation does not give the phantasm the ability to use weapons or activate magic items.",
-				"The phantasm can carry one object at a time and it does not hinder the phantasm from using its actions for other things. "
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Phantom Thief",
-			"prerequisite": [
-				{
-					"feature": [
-						"Use Objects"
-					]
-				}
-			],
-			"entries": [
-				"You can use your phantasm to steal or pickpocket objects weighing no more than 10 pounds and have it use thieves' tools in your stead. You use your own abilities when your phantasm makes Sleight of hand and Thieves' Tools skill checks. You can expend Soul Dice and use the rolled result to boost skill check rolls made with these two skills."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Whispered Knowledge",
-			"entries": [
-				"Choose two from Intelligence (Arcana, History, Nature, and Religion). You can expend Soul Dice and use the rolled result to boost the result of skill checks made using the chosen skills. You can retake this manifestation to reselect the two skills when you gain channeler levels."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Hypeman",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Channeler"
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [
+						{
+							"name": "Harmonic Magician",
+							"source": "PHB"
 						}
-					}
-				}
-			],
-			"entries": [
-				"You can use your action to yell out encouragements to a friendly creature within 30 feet of you and the next time it makes an ability check, saving throw or attack roll, you can expend your Soul Dice and add the result to their roll. Once you have used this feature, you must finish a short or long rest before you can use it again."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Phantasmal Shift",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You can use your action to magically swap position with your phantasm. Once you use this feature, you can't do so again until you finishes a short or long rest."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Watchful Phantasm",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You can use your action command your phantasm to hover over you and autonomously watch your surrounding. It will telepathically alert you when a tiny or larger creature enters a space within 30 feet of you. This manifestation will work even when you're asleep and the alert will mentally awaken you. As part of the command, you can designate an unlimited number of creatures to not trigger the alarm when they enter the phantasm's watch perimeter. Your phantasm has the same senses as you, unless otherwise stated in its stat block."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Elongate Limbs",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 9,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You can command your phantasm to elongate its limbs using your bonus action. The reach of their attacks is increased by 5 ft. until the end of your turn."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Guardian of the Fallen",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 11,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"When you are brought to 0 hit points, instead of automatically returning its pocket dimension, you can choose to have your phantasm active for 3 turns, acting on your turn as if you're controlling it. If it receives any damage, it will be transferred to you as a failed saving throw. It will disappear early when you die. Once this manifestation has been activated, it can't be used again until you finishes a long rest."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Feign Death",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 11,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"By engaging in a verbal stream of biting satire (concentration) which wraps you with protection (as if cast {spell mage armor} on yourself without expending a spell slot/point or material components). (Silence, or needends the effect)."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Phantasmic Bulk",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 15,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You can replace your phantasm's melee attacks with grapples or shoves. You use your Charisma with proficiency bonus to make the grapple or shove check, contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check. The target must be no more than one size larger than your phantasm. Your phantasm can carry and move with the grappled creature, but its movement speed is halved. If your phantasm is tethered to you, you can also move with the creature, but your movement speed is also halved."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "True Sight",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 15,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You can use your action to gain true sight for 1 minute. You notice secret doors hidden by magic and can see into the Ethereal Plane, all out to a range of 120 feet. Once you use this feature, you can't do so again until you finish a short or long rest."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"Man"
-			]
-		},
-		{
-			"name": "Picture Perfect Memory",
-			"entries": [
-				"You can remember everything you have seen in the past 24 hours perfectly and you can draw lifelike images based on that memory"
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManC"
-			]
-		},
-		{
-			"name": "Magical Attacks",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 6,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You can use your action to change both your phantasm's Unarmed Strike action damage type to magical bludgeoning, and Spike action damage type to magical piercing for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. You can use your action to end this effect"
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManC"
-			]
-		},
-		{
-			"name": "Time Mastery",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 15,
-						"entries": [
-							"2 other Manifestations"
+					],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=Harmonic Magician}",
+						"{@filter 2nd|spells|level=2|subclass=Harmonic Magician}",
+						"{@filter 3rd|spells|level=3|subclass=Harmonic Magician}",
+						"{@filter 4th|spells|level=4|subclass=Harmonic Magician}",
+						"{@filter 5th|spells|level=5|subclass=Harmonic Magician}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
 						],
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You regain the use of Time Slip, after a short or long rest."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManC"
-			]
-		},
-		{
-			"name": "Metal Walk",
-			"entries": [
-				"Using your action, you can magically give yourself the ability to move up, down, across vertical surfaces and upside down on metal objects. You gain climbing speed for metallic surface equal to your movement speed. This ability lasts for 1 hour, and you can use this manifestation at will."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManI"
-			]
-		},
-		{
-			"name": "Magical Arsenal",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 6,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"When preparing your Phantasmal Arsenal, you can ritually turn magic weapons attuned to you and magical ammunitions into part of your Phantasmal Arsenal, but they cannot become invisible. You can't affect an artifact or sentient weapons this way.",
-				"The magic weapon ceases to be your Phantasmal Arsenal if you die, use the ritual to break your bond with it or if you are no longer attuned to it."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManI"
-			]
-		},
-		{
-			"name": "Shield Shroud",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 15,
-						"entries": [
-							"2 other Manifestations"
+						[
+							2,
+							0,
+							0,
+							0,
+							0
 						],
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"Using your action, you can grant the creature protected by your Phantom Shield resistance to all damage types except for force and bludgeoning, piercing and slashing damage from magical weapons. This effect lasts for 1 minutes but ends early once the creature is no longer protected by it. Once you have used this feature, you must finish a short or long rest before you can use it again."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManI"
-			]
-		},
-		{
-			"name": "Imitate Voice & Sound",
-			"entries": [
-				"You can imitate any sound & voice you have heard within the past 24 hours and replicate it perfectly with your phantasm. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener that the effect is faked."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManH"
-			]
-		},
-		{
-			"name": "Follow-Up Attack",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 14,
-						"class": {
-							"name": "Channeler"
-						}
-					}
-				}
-			],
-			"entries": [
-				"When you use your action to cast a spell, you can use your bonus action to command your phantasm to move up to half its movement speed and attack a target with its Bite action."
-			],
-			"source": "CHNLR",
-			"featureType": [
-				"ManH"
-			]
-		},
-		{
-			"name": "Reduce Conversion Cost",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 15,
-						"entries": [
-							"2 other Manifestations"
+						[
+							3,
+							0,
+							0,
+							0,
+							0
 						],
-						"class": {
-							"name": "Channeler"
-						}
-					}
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
 				}
 			],
-			"entries": [
-				"Reduce all conversion cost from Soul Dice to spell slots by 1. For example, it now costs 1 Soul Dice to create a level 1 spell slot and 4 Soul Dice to create a level 3 spell slot."
-			],
+			"subclassFeatures": [
+				"Phantasm Spellcasting (Lv 1)|Channeler|CHNLR|Harmonic Magician|CHNLR|1",
+				"Phantom Sonar (Lv 1)|Channeler|CHNLR|Harmonic Magician|CHNLR|1",
+				"Soul Magic|Channeler|CHNLR|Harmonic Magician|CHNLR|3",
+				"Phantasm Ritual|Channeler|CHNLR|Harmonic Magician|CHNLR|3",
+				"Spell Burn|Channeler|CHNLR|Harmonic Magician|CHNLR|5",
+				"Soothing sound|Channeler|CHNLR|Harmonic Magician|CHNLR|7",
+				"Discordant Wave|Channeler|CHNLR|Harmonic Magician|CHNLR|9",
+				"Invisible spells|Channeler|CHNLR|Harmonic Magician|CHNLR|11",
+				"Phantasmal Protection|Channeler|CHNLR|Harmonic Magician|CHNLR|13",
+				"Arcane Encore|Channeler|CHNLR|Harmonic Magician|CHNLR|17",
+				"Spell Echo|Channeler|CHNLR|Harmonic Magician|CHNLR|20"
+			]
+		},
+		{
+			"name": "Iron Myrmidon",
+			"shortName": "Iron Myrmidon",
 			"source": "CHNLR",
-			"featureType": [
-				"ManH"
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassFeatures": [
+				"Phantom Shield (Lv 1)|Channeler|CHNLR|Iron Myrmidon|CHNLR|1",
+				"Control Metal|Channeler|CHNLR|Iron Myrmidon|CHNLR|1",
+				"Phantasmal Arsenal|Channeler|CHNLR|Iron Myrmidon|CHNLR|3",
+				"Multiattack (Lv 5)|Channeler|CHNLR|Iron Myrmidon|CHNLR|5",
+				"Shield Protection (Lv 7)|Channeler|CHNLR|Iron Myrmidon|CHNLR|7",
+				"Chrome Juggernaut (Lv 9)|Channeler|CHNLR|Iron Myrmidon|CHNLR|9",
+				"Invisible Arsenal|Channeler|CHNLR|Iron Myrmidon|CHNLR|11",
+				"Phantasmal Protection|Channeler|CHNLR|Iron Myrmidon|CHNLR|13",
+				"Chrome Block|Channeler|CHNLR|Iron Myrmidon|CHNLR|17",
+				"Storm of Steel|Channeler|CHNLR|Iron Myrmidon|CHNLR|20"
 			]
 		}
 	],
 	"classFeature": [
-		{
-			"name": "Phantasmal Awareness",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"level": 1,
-			"entries": [
-				"While you are not wearing armor, you gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"Your may use your phantasm's Armor Class for your own AC. (See Phantasm stat block) It does not need to be summoned for you to gain this benefit.",
-						"You may roll initiative by making a Wisdom check instead of Dexterity check when establishing your initiative order."
-					]
-				}
-			]
-		},
 		{
 			"name": "Phantasm",
 			"source": "CHNLR",
@@ -1412,6 +703,23 @@
 			"entries": [
 				"Choose the aspect that your phantasm exhibits. The phantasm's aspect can be one of the following: Chronos Avenger, Iron Myrmidon or Harmonic Magician, all detailed at the end of the class description.",
 				"Your choice grants you features at 1st level and again at 3rd, 5th, 7th, 9th, 11th, 13th, 17th and 20th level."
+			]
+		},
+		{
+			"name": "Phantasmal Awareness",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"level": 1,
+			"entries": [
+				"While you are not wearing armor, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your may use your phantasm's Armor Class for your own AC. (See Phantasm stat block) It does not need to be summoned for you to gain this benefit.",
+						"You may roll initiative by making a Wisdom check instead of Dexterity check when establishing your initiative order."
+					]
+				}
 			]
 		},
 		{
@@ -1636,18 +944,6 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Phantasm Proficiency (Lv 1)",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Chronos Avenger",
-			"subclassSource": "CHNLR",
-			"level": 1,
-			"entries": [
-				"Choose one extra skill from the Channeler class proficiencies list and you become proficient in it."
-			]
-		},
-		{
 			"name": "Past Object",
 			"source": "CHNLR",
 			"className": "Channeler",
@@ -1662,6 +958,18 @@
 				"You can use this feature on magic items to restore their form, but it doesn't restore the magic.",
 				"You can use your action to end this effect early.",
 				"Once you have used this feature, you must finish a short rest or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Phantasm Proficiency (Lv 1)",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Chronos Avenger",
+			"subclassSource": "CHNLR",
+			"level": 1,
+			"entries": [
+				"Choose one extra skill from the Channeler class proficiencies list and you become proficient in it."
 			]
 		},
 		{
@@ -1765,17 +1073,250 @@
 			]
 		},
 		{
-			"name": "Phantom Shield (Lv 1)",
+			"name": "Phantasm Spellcasting (Lv 1)",
 			"source": "CHNLR",
 			"className": "Channeler",
 			"classSource": "CHNLR",
-			"subclassShortName": "Iron Myrmidon",
+			"subclassShortName": "Harmonic Magician",
 			"subclassSource": "CHNLR",
 			"level": 1,
 			"entries": [
-				"You can telepathically control a floating spectral shield to defend yourself or others. Your phantasm appears with the shield hovering around it. Using your bonus action, you can designate a creature within 30 ft. that you can see, including your own phantasm, to become the target of the shield's protection. The shield appears and hovers in the creature's space, increasing the target's armor class by +2, but a target can only benefit from 1 shield at a time.",
-				"If the the target moves out of range, the shield will disappear. It will also disappear if your phantasm returns to its pocket dimension. You can also use your bonus action to send your shield into an extra dimensional space.",
-				"Magic shields can be turned into your phantom shield if it's attuned to you and you perform a special ritual while you hold the shield for 1 hour, which can be done at the same time you are attuning to the shield or during a short rest. You can't affect an artifact or sentient shield this way. You can use the magic shield's armor class bonus instead of the +2 bonus. You can activate the magic shield's effects, if it has any, when you are within 5 feet of the shield. The magical shield ceases to be your phantom shield if you die, make another shield your phantom shield, use the ritual to break your bond with it or if you are no longer attuned to it."
+				"Phantasm Spellcasting (Lv 1) You have gained the ability to cast spells through the esoteric knowledge whispered to you by your phantasm. At level one, you start with 3 cantrips. (See Harmonic Magician spell list on page 14)",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cantrips|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spell Slots|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spells Known of 1st Level and Higher|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spell Transmission|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
+				}
+			]
+		},
+		{
+			"name": "Phantom Sonar (Lv 1)",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 1,
+			"entries": [
+				"You can use your action to command your phantasm to emit high-pitched noise pulses for 1 minute. While it is active, invisible creatures without incorporeal movement within 30 feet from your phantasm are visible to you. You can also \"see\" the shape and depth of any object and secret doors not hidden by magic within 30 feet of your phantasm. This effect can be ended early using your action or when your phantasm returns to its pocket dimension. The noise can be heard for up to 150 feet away. Once you have used this feature, you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Cantrips",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You learn {@spell Thaumaturgy} and two other cantrips of your choice from the Harmonic Magician spell list. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Harmonic Magician spell table."
+			]
+		},
+		{
+			"name": "Spell Slots",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The Harmonic Magician spell  table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Harmonic Magician spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+				"For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
+			]
+		},
+		{
+			"name": "Spell Transmission",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"While you can see your phantasm, without using your phantasm's senses, you can use your action to cast a Harmonic Magician spell that has a casting time of 1 action through your phantasm. As part of the action, the phantasm can move up to its movement speed and deliver the spell as if it is the source. It {@b becomes visible} as it transmits your spell and it uses your attack modifier for the roll.",
+				"Spell components must still be provided by you."
+			]
+		},
+		{
+			"name": "Spells Known of 1st Level and Higher",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The Spells Known column of the Harmonic Magician table shows when you learn more spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
+				"Additionally, when you gain a level in this class, you can choose one of the Harmonic Magician spells you know and replace it with another spell from the Harmonic Magician spell list, which also must be of a level for which you have spell slots."
+			]
+		},
+		{
+			"name": "Phantasm Ritual",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 3,
+			"entries": [
+				"You can now record magical rituals onto a special circular plate stored in your phantasm's extradimensional compartment. Choose two 1stlevel spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spell plates appear in the compartment and don't count against the number of spells you know. When your phantasm is in the same plane as you, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a Harmonic Magician spell you know as a ritual if it has the ritual tag. On your adventures, you can add other ritual spells to your phantasm's extradimensional space. When you find such a spell, you can inscribe it to a plate if the spell's level is equal to or less than a quarter of your channeler level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare material needed to create the plates."
+			]
+		},
+		{
+			"name": "Soul Magic",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 3,
+			"entries": [
+				"You can expend Soul Dice to heighten the damage of your cantrips. You add your Charisma Modifier to the damage.",
+				{
+					"type": "entries",
+					"name": "Creating Spell Slots",
+					"entries": [
+						"You can transform unexpended Soul Dice into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th. You cannot convert spell slots into Soul Dice.",
+						"Any spell slot you create with this feature vanishes when you finish a long rest."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Creating Spell Slots",
+					"colLabels": [
+						"Spell Slot Level",
+						"Soul Dice Cost"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"1st",
+							2
+						],
+						[
+							"2nd",
+							3
+						],
+						[
+							"3rd",
+							5
+						],
+						[
+							"4th",
+							6
+						],
+						[
+							"5th",
+							7
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Burn",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 5,
+			"entries": [
+				"You can expend Soul Dice to heighten the damage or healing power of your Harmonic Magician spells. You roll the Soul Dice you've expended, add your Charisma Modifier to it, and add the result to the damage. You can expend Soul Dice separately for every instance damage is dealt by the spell. For example, you can spend Soul Dice separately for every instance a ray from your Scorching Ray spell hit a target."
+			]
+		},
+		{
+			"name": "Soothing sound",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 7,
+			"entries": [
+				"Soothing tunes telepathically emitted by your phantasm bolsters your mental fortitude. You have advantage on Wisdom saving throws."
+			]
+		},
+		{
+			"name": "Discordant Wave",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 9,
+			"entries": [
+				"You can use your bonus action to command your phantasm to emit sonic high-frequency pulse to disrupt the concentration of creatures within 10 feet from it. Affected creatures in that space have to succeed in a Constitution saving throw to be able to cast spells or create effects that require concentration. If they're already concentrating on a spell or effect, they will have to immediately make a Constitution saving throw and they will lose their concentration if they fail.",
+				"This effect lasts until the start of your next turn. The pulsing noise is only audible to those affected by it."
+			]
+		},
+		{
+			"name": "Invisible spells",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 11,
+			"entries": [
+				"Your phantasm has learned how to conceal its presence and remain invisible when it's transmitting your spells. Spell attacks made through your phantasm are treated as if they are made through an invisible source."
+			]
+		},
+		{
+			"name": "Phantasmal Protection",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 13,
+			"entries": [
+				"Your phantasm's continuous growth has granted you proficiency in Intelligence saving throws. If you already have this proficiency, you instead gain proficiency in a saving throw you are not already proficient in."
+			]
+		},
+		{
+			"name": "Arcane Encore",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 17,
+			"entries": [
+				"Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your channeler level (rounded up), and none of the slots can be 6th level or higher.",
+				"For example, if you're an 17th-level channeler, you can recover up to nine levels worth of spell slots. You can recover either three 3rd-level spell slot, 4th-level spell slot and a 5th-level spell slot, or other spell slot combinations."
+			]
+		},
+		{
+			"name": "Spell Echo",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Harmonic Magician",
+			"subclassSource": "CHNLR",
+			"level": 20,
+			"entries": [
+				"When you cast a spell that does not require concentration, such as Cone of Cold, you can have your phantasm duplicate it, effectively casting it twice from your respective locations. The spells are resolved separately starting with you. Spell dice can be spent on each instance damage is applied. Once you have used this feature, you must finish a short or long rest before you can use it again."
 			]
 		},
 		{
@@ -1788,6 +1329,20 @@
 			"level": 1,
 			"entries": [
 				"Using your action, you can magnetically move metallic objects or a group of metallic objects within 30 feet that weighis up to 10 pounds in the air. You can also use this feature to clear 10 ft. square area from small metallic objects such as ball bearings and caltrops. If you use this feature consecutively for one minute on a metallic object that can fit the space of 5 ft. cube, that object will become magically magnetized for 1 hour and can attract objects that weighs up to 10 pounds. The magnetic effect will end early if you magnetise another metallic object or use your action to end the effect. You can't attack or activate magic weapons using this feature."
+			]
+		},
+		{
+			"name": "Phantom Shield (Lv 1)",
+			"source": "CHNLR",
+			"className": "Channeler",
+			"classSource": "CHNLR",
+			"subclassShortName": "Iron Myrmidon",
+			"subclassSource": "CHNLR",
+			"level": 1,
+			"entries": [
+				"You can telepathically control a floating spectral shield to defend yourself or others. Your phantasm appears with the shield hovering around it. Using your bonus action, you can designate a creature within 30 ft. that you can see, including your own phantasm, to become the target of the shield's protection. The shield appears and hovers in the creature's space, increasing the target's armor class by +2, but a target can only benefit from 1 shield at a time.",
+				"If the the target moves out of range, the shield will disappear. It will also disappear if your phantasm returns to its pocket dimension. You can also use your bonus action to send your shield into an extra dimensional space.",
+				"Magic shields can be turned into your phantom shield if it's attuned to you and you perform a special ritual while you hold the shield for 1 hour, which can be done at the same time you are attuning to the shield or during a short rest. You can't affect an artifact or sentient shield this way. You can use the magic shield's armor class bonus instead of the +2 bonus. You can activate the magic shield's effects, if it has any, when you are within 5 feet of the shield. The magical shield ceases to be your phantom shield if you die, make another shield your phantom shield, use the ritual to break your bond with it or if you are no longer attuned to it."
 			]
 		},
 		{
@@ -1892,252 +1447,722 @@
 				"As an action, you can command spectral weapons to fly out of your phantasm's extradimensional weapon rack and orbit in a circular pattern, attacking everything that comes within 10 feet radius of you. The first time a creatures enters that space or start its turn within it, it will take 2d10 force damage. Ranged weapon and spell attacks passing through the space the spectral weapons fly through will be made with disadvantage.",
 				"You can designate an unlimited number of creatures you can see to be immune to the spectral weapons' damages when you activate this feature. This feature lasts for 1 minute and can be ended earlier using your action. It will also end early if you've become unconscious. Once you have used this feature, you must finish a short or long rest before you can use it again."
 			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Defensive Posture ",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"entries": [
+				"Only before using your action, you can use your bonus action to command your phantasm to move into your space and envelop you with its protective force, providing you with +2 bonus to your AC until the start of your next turn. While this bonus is in effect, your phantasm becomes visible and is tethered to your space. This will cause your phantasm to appear if it's in its pocket dimension."
+			]
 		},
 		{
-			"name": "Phantasm Spellcasting (Lv 1)",
+			"name": "Eagle Vision",
 			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 1,
+			"featureType": [
+				"Man"
+			],
 			"entries": [
-				"Phantasm Spellcasting (Lv 1) You have gained the ability to cast spells through the esoteric knowledge whispered to you by your phantasm. At level one, you start with 3 cantrips. (See Harmonic Magician spell list on page 14)",
+				"You can expend Soul Dice on Intelligence (Investigation) and Wisdom (Perception) skill checks. You can roll the Soul Dice you've spent and add the result to the check."
+			]
+		},
+		{
+			"name": "Elongate Limbs",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
 				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Cantrips|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Spell Slots|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Spells Known of 1st Level and Higher|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Spell Transmission|Channeler|CHNLR|Harmonic Magician|CHNLR|1"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Channeler"
+						}
+					}
 				}
+			],
+			"entries": [
+				"You can command your phantasm to elongate its limbs using your bonus action. The reach of their attacks is increased by 5 ft. until the end of your turn."
 			]
 		},
 		{
-			"name": "Cantrips",
-			"entries": [
-				"You learn {@spell Thaumaturgy} and two other cantrips of your choice from the Harmonic Magician spell list. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Harmonic Magician spell table."
+			"name": "Feign Death",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
 			],
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 1,
-			"header": 1
-		},
-		{
-			"name": "Spell Slots",
-			"entries": [
-				"The Harmonic Magician spell  table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Harmonic Magician spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-				"For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
-			],
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 1,
-			"header": 1
-		},
-		{
-			"name": "Spells Known of 1st Level and Higher",
-			"entries": [
-				"The Spells Known column of the Harmonic Magician table shows when you learn more spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
-				"Additionally, when you gain a level in this class, you can choose one of the Harmonic Magician spells you know and replace it with another spell from the Harmonic Magician spell list, which also must be of a level for which you have spell slots."
-			],
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 1,
-			"header": 1
-		},
-		{
-			"name": "Spell Transmission",
-			"entries": [
-				"While you can see your phantasm, without using your phantasm's senses, you can use your action to cast a Harmonic Magician spell that has a casting time of 1 action through your phantasm. As part of the action, the phantasm can move up to its movement speed and deliver the spell as if it is the source. It {@b becomes visible} as it transmits your spell and it uses your attack modifier for the roll.",
-				"Spell components must still be provided by you."
-			],
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 1,
-			"header": 1
-		},
-		{
-			"name": "Phantom Sonar (Lv 1)",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 1,
-			"entries": [
-				"You can use your action to command your phantasm to emit high-pitched noise pulses for 1 minute. While it is active, invisible creatures without incorporeal movement within 30 feet from your phantasm are visible to you. You can also \"see\" the shape and depth of any object and secret doors not hidden by magic within 30 feet of your phantasm. This effect can be ended early using your action or when your phantasm returns to its pocket dimension. The noise can be heard for up to 150 feet away. Once you have used this feature, you must finish a short or long rest before you can use it again."
-			]
-		},
-		{
-			"name": "Soul Magic",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 3,
-			"entries": [
-				"You can expend Soul Dice to heighten the damage of your cantrips. You add your Charisma Modifier to the damage.",
+			"prerequisite": [
 				{
-					"name": "Creating Spell Slots",
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"By engaging in a verbal stream of biting satire (concentration) which wraps you with protection (as if cast {spell mage armor} on yourself without expending a spell slot/point or material components). (Silence, or needends the effect)."
+			]
+		},
+		{
+			"name": "Follow-Up Attack",
+			"source": "CHNLR",
+			"featureType": [
+				"ManH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 14,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you use your action to cast a spell, you can use your bonus action to command your phantasm to move up to half its movement speed and attack a target with its Bite action."
+			]
+		},
+		{
+			"name": "Guardian of the Fallen",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you are brought to 0 hit points, instead of automatically returning its pocket dimension, you can choose to have your phantasm active for 3 turns, acting on your turn as if you're controlling it. If it receives any damage, it will be transferred to you as a failed saving throw. It will disappear early when you die. Once this manifestation has been activated, it can't be used again until you finishes a long rest."
+			]
+		},
+		{
+			"name": "Healing Energy",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"entries": [
+				"You can use your action to spend your Soul Dice to heal a target creature. You roll the number of dice you have spent and add your Charisma modifier to the result. The creature regain that many hitpoints. Once a creature has regained hit points from this manifestation, it can't do so again until it finishes a long rest."
+			]
+		},
+		{
+			"name": "Hypeman",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use your action to yell out encouragements to a friendly creature within 30 feet of you and the next time it makes an ability check, saving throw or attack roll, you can expend your Soul Dice and add the result to their roll. Once you have used this feature, you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Imitate Voice & Sound",
+			"source": "CHNLR",
+			"featureType": [
+				"ManH"
+			],
+			"entries": [
+				"You can imitate any sound & voice you have heard within the past 24 hours and replicate it perfectly with your phantasm. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener that the effect is faked."
+			]
+		},
+		{
+			"name": "Magical Arsenal",
+			"source": "CHNLR",
+			"featureType": [
+				"ManI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When preparing your Phantasmal Arsenal, you can ritually turn magic weapons attuned to you and magical ammunitions into part of your Phantasmal Arsenal, but they cannot become invisible. You can't affect an artifact or sentient weapons this way.",
+				"The magic weapon ceases to be your Phantasmal Arsenal if you die, use the ritual to break your bond with it or if you are no longer attuned to it."
+			]
+		},
+		{
+			"name": "Magical Attacks",
+			"source": "CHNLR",
+			"featureType": [
+				"ManC"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use your action to change both your phantasm's Unarmed Strike action damage type to magical bludgeoning, and Spike action damage type to magical piercing for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. You can use your action to end this effect"
+			]
+		},
+		{
+			"name": "Master of Lies",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"entries": [
+				"You can expend Soul Dice on Charisma (Deception) and Wisdom (Insight) skill checks. You can roll the Soul Dice you've spent and add the result to the creck."
+			]
+		},
+		{
+			"name": "Metal Walk",
+			"source": "CHNLR",
+			"featureType": [
+				"ManI"
+			],
+			"entries": [
+				"Using your action, you can magically give yourself the ability to move up, down, across vertical surfaces and upside down on metal objects. You gain climbing speed for metallic surface equal to your movement speed. This ability lasts for 1 hour, and you can use this manifestation at will."
+			]
+		},
+		{
+			"name": "Phantasmal Shift",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use your action to magically swap position with your phantasm. Once you use this feature, you can't do so again until you finishes a short or long rest."
+			]
+		},
+		{
+			"name": "Phantasmic Bulk",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can replace your phantasm's melee attacks with grapples or shoves. You use your Charisma with proficiency bonus to make the grapple or shove check, contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check. The target must be no more than one size larger than your phantasm. Your phantasm can carry and move with the grappled creature, but its movement speed is halved. If your phantasm is tethered to you, you can also move with the creature, but your movement speed is also halved."
+			]
+		},
+		{
+			"name": "Phantom Thief",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
+				{
+					"feature": [
+						"Use Objects"
+					]
+				}
+			],
+			"entries": [
+				"You can use your phantasm to steal or pickpocket objects weighing no more than 10 pounds and have it use thieves' tools in your stead. You use your own abilities when your phantasm makes Sleight of hand and Thieves' Tools skill checks. You can expend Soul Dice and use the rolled result to boost skill check rolls made with these two skills."
+			]
+		},
+		{
+			"name": "Physical Enhancements",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"entries": [
+				"You can expend Soul Dice on Strength (Athletics) or Dexterity (Acrobatics) checks. You can roll the Soul Dice you've spent and add the result to the ability roll."
+			]
+		},
+		{
+			"name": "Picture Perfect Memory",
+			"source": "CHNLR",
+			"featureType": [
+				"ManC"
+			],
+			"entries": [
+				"You can remember everything you have seen in the past 24 hours perfectly and you can draw lifelike images based on that memory"
+			]
+		},
+		{
+			"name": "Prodigious Escape",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"entries": [
+				"When you use your action to dash, you are disengaged and your movement speed increases by 10 feet until the end of the turn."
+			]
+		},
+		{
+			"name": "Reduce Conversion Cost",
+			"source": "CHNLR",
+			"featureType": [
+				"ManH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Channeler",
+							"source": "CHNLR",
+							"visible": true
+						}
+					},
+					"other": "2 other manifestations"
+				}
+			],
+			"entries": [
+				"Reduce all conversion cost from Soul Dice to spell slots by 1. For example, it now costs 1 Soul Dice to create a level 1 spell slot and 4 Soul Dice to create a level 3 spell slot."
+			]
+		},
+		{
+			"name": "Shield Shroud",
+			"source": "CHNLR",
+			"featureType": [
+				"ManI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Channeler",
+							"source": "CHNLR",
+							"visible": true
+						}
+					},
+					"other": "2 other manifestations"
+				}
+			],
+			"entries": [
+				"Using your action, you can grant the creature protected by your Phantom Shield resistance to all damage types except for force and bludgeoning, piercing and slashing damage from magical weapons. This effect lasts for 1 minutes but ends early once the creature is no longer protected by it. Once you have used this feature, you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Time Mastery",
+			"source": "CHNLR",
+			"featureType": [
+				"ManC"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Channeler",
+							"source": "CHNLR",
+							"visible": true
+						}
+					},
+					"other": "2 other manifestations"
+				}
+			],
+			"entries": [
+				"You regain the use of Time Slip, after a short or long rest."
+			]
+		},
+		{
+			"name": "True Sight",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use your action to gain true sight for 1 minute. You notice secret doors hidden by magic and can see into the Ethereal Plane, all out to a range of 120 feet. Once you use this feature, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Use Objects",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"entries": [
+				"You can use your action to command your phantasm to carry, move and manipulate an object weighing up to 10 pounds. While the object is being carried by the phantasm, it is invisible to anyone other than channelers and creatures with truesight. Spells & effects such as Faery Fire & See Invisibility will reveal the object. You can also command the phantasm with your action to use the item it's carrying, such as a bag of caltrops, poison or a healing potion. However, this manifestation does not give the phantasm the ability to use weapons or activate magic items.",
+				"The phantasm can carry one object at a time and it does not hinder the phantasm from using its actions for other things. "
+			]
+		},
+		{
+			"name": "Watchful Phantasm",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Channeler"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use your action command your phantasm to hover over you and autonomously watch your surrounding. It will telepathically alert you when a tiny or larger creature enters a space within 30 feet of you. This manifestation will work even when you're asleep and the alert will mentally awaken you. As part of the command, you can designate an unlimited number of creatures to not trigger the alarm when they enter the phantasm's watch perimeter. Your phantasm has the same senses as you, unless otherwise stated in its stat block."
+			]
+		},
+		{
+			"name": "Whispered Knowledge",
+			"source": "CHNLR",
+			"featureType": [
+				"Man"
+			],
+			"entries": [
+				"Choose two from Intelligence (Arcana, History, Nature, and Religion). You can expend Soul Dice and use the rolled result to boost the result of skill checks made using the chosen skills. You can retake this manifestation to reselect the two skills when you gain channeler levels."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Chronos Avenger ",
+			"source": "CHNLR",
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor",
+						"The Channeler's Wisdom Modifier"
+					]
+				}
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d6"
+			},
+			"speed": {
+				"fly": 30,
+				"walk": 0
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 12,
+			"immune": [
+				"psychic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Incorporeal Movement.",
 					"entries": [
-						"You can transform unexpended Soul Dice into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th. You cannot convert spell slots into Soul Dice.",
-						"Any spell slot you create with this feature vanishes when you finish a long rest."
+						"The phantasm can move through other creatures and objects as if they were difficult terrain. It takes {@dice 1d10} force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
 					]
 				},
 				{
-					"type": "table",
-					"caption": "Creating Spell Slots",
-					"colLabels": [
-						"Spell Slot Level",
-						"Soul Dice Cost"
-					],
-					"colStyles": [
-						"col-6",
-						"col-6 text-center"
-					],
-					"rows": [
-						[
-							"1st",
-							2
-						],
-						[
-							"2nd",
-							3
-						],
-						[
-							"3rd",
-							5
-						],
-						[
-							"4th",
-							6
-						],
-						[
-							"5th",
-							7
-						]
+					"name": "Spike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
 					]
 				}
-			]
+			],
+			"reaction": [
+				{
+					"name": "Opportunity Attack",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Help",
+					"entries": [
+						"Grants advantage to allies against one creature it threatens."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Broodlings and Harbingers perpetuate the practice of evolution by consumption within the sliver hive, the most important function in the hive: seek out new abilities to add to the hive's collection.",
+					"In the early stages of a hive's development, it is imperative to send out hunting parties. Collecting biological material for the hive to consume, so that it can acclimate to its surroundings and produce deadlier slivers.",
+					"Add the Phantom Blade's charisma modifier to its AC & HP"
+				]
+			}
 		},
 		{
-			"name": "Phantasm Ritual",
+			"name": "Harmonic Magician",
 			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 3,
-			"entries": [
-				"You can now record magical rituals onto a special circular plate stored in your phantasm's extradimensional compartment. Choose two 1stlevel spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spell plates appear in the compartment and don't count against the number of spells you know. When your phantasm is in the same plane as you, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a Harmonic Magician spell you know as a ritual if it has the ritual tag. On your adventures, you can add other ritual spells to your phantasm's extradimensional space. When you find such a spell, you can inscribe it to a plate if the spell's level is equal to or less than a quarter of your channeler level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare material needed to create the plates."
-			]
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor",
+						"The Channeler's Wisdom Modifier"
+					]
+				}
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d6"
+			},
+			"speed": {
+				"fly": 30,
+				"walk": 0
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 12,
+			"immune": [
+				"psychic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Incorporeal Movement.",
+					"entries": [
+						"The phantasm can move through other creatures and objects as if they were difficult terrain. It takes {@dice 1d10} force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Spike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Opportunity Attack",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Help",
+					"entries": [
+						"Grants advantage to allies against one creature it threatens."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Broodlings and Harbingers perpetuate the practice of evolution by consumption within the sliver hive, the most important function in the hive: seek out new abilities to add to the hive's collection.",
+					"In the early stages of a hive's development, it is imperative to send out hunting parties. Collecting biological material for the hive to consume, so that it can acclimate to its surroundings and produce deadlier slivers.",
+					"Add the Phantom Blade's charisma modifier to its AC & HP"
+				]
+			}
 		},
 		{
-			"name": "Spell Burn",
+			"name": "Iron Myrmidon",
 			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 5,
-			"entries": [
-				"You can expend Soul Dice to heighten the damage or healing power of your Harmonic Magician spells. You roll the Soul Dice you've expended, add your Charisma Modifier to it, and add the result to the damage. You can expend Soul Dice separately for every instance damage is dealt by the spell. For example, you can spend Soul Dice separately for every instance a ray from your Scorching Ray spell hit a target."
-			]
-		},
-		{
-			"name": "Soothing sound",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 7,
-			"entries": [
-				"Soothing tunes telepathically emitted by your phantasm bolsters your mental fortitude. You have advantage on Wisdom saving throws."
-			]
-		},
-		{
-			"name": "Discordant Wave",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 9,
-			"entries": [
-				"You can use your bonus action to command your phantasm to emit sonic high-frequency pulse to disrupt the concentration of creatures within 10 feet from it. Affected creatures in that space have to succeed in a Constitution saving throw to be able to cast spells or create effects that require concentration. If they're already concentrating on a spell or effect, they will have to immediately make a Constitution saving throw and they will lose their concentration if they fail.",
-				"This effect lasts until the start of your next turn. The pulsing noise is only audible to those affected by it."
-			]
-		},
-		{
-			"name": "Invisible spells",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 11,
-			"entries": [
-				"Your phantasm has learned how to conceal its presence and remain invisible when it's transmitting your spells. Spell attacks made through your phantasm are treated as if they are made through an invisible source."
-			]
-		},
-		{
-			"name": "Phantasmal Protection",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 13,
-			"entries": [
-				"Your phantasm's continuous growth has granted you proficiency in Intelligence saving throws. If you already have this proficiency, you instead gain proficiency in a saving throw you are not already proficient in."
-			]
-		},
-		{
-			"name": "Arcane Encore",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 17,
-			"entries": [
-				"Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your channeler level (rounded up), and none of the slots can be 6th level or higher.",
-				"For example, if you're an 17th-level channeler, you can recover up to nine levels worth of spell slots. You can recover either three 3rd-level spell slot, 4th-level spell slot and a 5th-level spell slot, or other spell slot combinations."
-			]
-		},
-		{
-			"name": "Spell Echo",
-			"source": "CHNLR",
-			"className": "Channeler",
-			"classSource": "CHNLR",
-			"subclassShortName": "Harmonic Magician",
-			"subclassSource": "CHNLR",
-			"level": 20,
-			"entries": [
-				"When you cast a spell that does not require concentration, such as Cone of Cold, you can have your phantasm duplicate it, effectively casting it twice from your respective locations. The spells are resolved separately starting with you. Spell dice can be spent on each instance damage is applied. Once you have used this feature, you must finish a short or long rest before you can use it again."
-			]
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor",
+						"The Channeler's Wisdom Modifier"
+					]
+				}
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d6"
+			},
+			"speed": {
+				"fly": 30,
+				"walk": 0
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 12,
+			"immune": [
+				"psychic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Incorporeal Movement.",
+					"entries": [
+						"The phantasm can move through other creatures and objects as if they were difficult terrain. It takes {@dice 1d10} force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Spike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Opportunity Attack",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@b Hit} 3 ({@damage 1d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Help",
+					"entries": [
+						"Grants advantage to allies against one creature it threatens."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Broodlings and Harbingers perpetuate the practice of evolution by consumption within the sliver hive, the most important function in the hive: seek out new abilities to add to the hive's collection.",
+					"In the early stages of a hive's development, it is imperative to send out hunting parties. Collecting biological material for the hive to consume, so that it can acclimate to its surroundings and produce deadlier slivers.",
+					"Add the Phantom Blade's charisma modifier to its AC & HP"
+				]
+			}
 		}
 	]
 }

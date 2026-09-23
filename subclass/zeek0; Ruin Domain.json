@@ -5,66 +5,40 @@
 				"json": "ruindomain",
 				"abbreviation": "Brew",
 				"full": "Ruin Domain",
+				"url": "https://drive.google.com/file/d/1n74fDG0Oo20-buFl0OIdtHpqpXEpkr0v/view",
+				"version": "21.02.19",
 				"authors": [
 					"zeek0"
 				],
 				"convertedBy": [
 					"EldritchTiefling"
 				],
-				"version": "21.02.19",
-				"url": "https://drive.google.com/file/d/1n74fDG0Oo20-buFl0OIdtHpqpXEpkr0v/view",
 				"targetSchema": "1.0.1"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1589914515,
-		"dateLastModified": 1589914515
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "5245b65d16"
 	},
 	"subclass": [
 		{
 			"name": "Ruin Domain",
 			"shortName": "Ruin",
 			"source": "ruindomain",
+			"className": "Cleric",
+			"classSource": "PHB",
 			"subclassSpells": [
-				{
-					"name": "Bane",
-					"source": "PHB"
-				},
-				{
-					"name": "Dissonant Whispers",
-					"source": "PHB"
-				},
-				{
-					"name": "Ray of Enfeeblement",
-					"source": "PHB"
-				},
-				{
-					"name": "Shatter",
-					"source": "PHB"
-				},
-				{
-					"name": "Bestow Curse",
-					"source": "PHB"
-				},
-				{
-					"name": "Dispel Magic",
-					"source": "PHB"
-				},
-				{
-					"name": "Confusion",
-					"source": "PHB"
-				},
-				{
-					"name": "Blight",
-					"source": "PHB"
-				},
-				{
-					"name": "Contagion",
-					"source": "PHB"
-				},
-				{
-					"name": "Destructive Wave",
-					"source": "PHB"
-				}
+				"bane",
+				"dissonant whispers",
+				"ray of enfeeblement",
+				"shatter",
+				"bestow curse",
+				"dispel magic",
+				"confusion",
+				"blight",
+				"contagion",
+				"destructive wave"
 			],
 			"subclassFeatures": [
 				"Ruin Domain|Cleric||Ruin|ruindomain|1",
@@ -72,9 +46,7 @@
 				"Channel Divinity: Disruption|Cleric||Ruin|ruindomain|6",
 				"Potent Spellcasting|Cleric||Ruin|ruindomain|8",
 				"Cripple and Despoil|Cleric||Ruin|ruindomain|17"
-			],
-			"className": "Cleric",
-			"classSource": "PHB"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -134,26 +106,21 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Destruction",
+			"source": "ruindomain",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ruin",
+			"subclassSource": "ruindomain",
+			"level": 1,
+			"header": 1,
 			"entries": [
 				"At 1st level, your god imbues your magic with greater powers to demolish and destroy. Damage you deal to objects with spells is doubled."
-			],
-			"source": "ruindomain",
-			"page": 36,
-			"className": "Cleric",
-			"classSource": "PHB",
-			"subclassShortName": "Ruin",
-			"subclassSource": "ruindomain",
-			"level": 1,
-			"header": 1
+			]
 		},
 		{
-			"type": "entries",
 			"name": "Dissolution",
-			"entries": [
-				"Also at 1st level, you are blessed with greater abilities to dissolve social and civil bonds. You gain proficiency in {@skill Deception}, and your proficiency bonus is doubled for any ability check you make that uses this skill."
-			],
 			"source": "ruindomain",
 			"page": 36,
 			"className": "Cleric",
@@ -161,7 +128,10 @@
 			"subclassShortName": "Ruin",
 			"subclassSource": "ruindomain",
 			"level": 1,
-			"header": 1
+			"header": 1,
+			"entries": [
+				"Also at 1st level, you are blessed with greater abilities to dissolve social and civil bonds. You gain proficiency in {@skill Deception}, and your proficiency bonus is doubled for any ability check you make that uses this skill."
+			]
 		},
 		{
 			"name": "Channel Divinity: Beget Entropy",

@@ -1,24 +1,30 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "PrimarisFF",
 				"abbreviation": "FFPrimaris",
 				"full": "Primaris Lieutenant Martial Archetype",
+				"url": "https://homebrewery.naturalcrit.com/share/1--qZLa2_65qITMmV3ctrGXu0Aa-xTBvMHQjNF1Wp_dhs",
+				"version": "1.0",
 				"authors": [
 					"Foxfire94"
 				],
-				"version": "1.0",
-				"url": "https://games-workshop.com/"
+				"color": "d09b45"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1585672812,
-		"dateLastModified": 1585672812
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "4e98a64bbf"
 	},
 	"subclass": [
 		{
 			"name": "Primaris Lieutenant",
+			"shortName": "Primaris Lieutenant",
+			"source": "PrimarisFF",
+			"className": "Fighter",
+			"classSource": "PHB",
 			"subclassFeatures": [
 				"Primaris Lieutenant Martial Archetype|Fighter||Primaris Lieutenant|PrimarisFF|3",
 				"Weapon Drills|Fighter||Primaris Lieutenant|PrimarisFF|7",
@@ -28,18 +34,13 @@
 				"Gene-forged Might|Fighter||Primaris Lieutenant|PrimarisFF|15",
 				"Additional Combat Tactics|Fighter||Primaris Lieutenant|PrimarisFF|18",
 				"Tactical Precision|Fighter||Primaris Lieutenant|PrimarisFF|18"
-			],
-			"source": "PrimarisFF",
-			"shortName": "Primaris Lieutenant",
-			"className": "Fighter",
-			"classSource": "PHB"
+			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Primaris Lieutenant Martial Archetype",
 			"source": "PrimarisFF",
-			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Primaris Lieutenant",
@@ -54,54 +55,55 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Combat Tactics",
+			"source": "PrimarisFF",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Primaris Lieutenant",
+			"subclassSource": "PrimarisFF",
+			"level": 3,
+			"header": 1,
 			"entries": [
-				"Starting at 3rd level you can on your turn use your bonus action to use one of the Combat Tactics detailed below. You can do this twice and regain expended uses after you finish a short or long rest.",
+				"Starting at 3rd level you can use your bonus action to use one of the Combat Tactics detailed below. You can do this twice and regain expended uses after you finish a short or long rest.",
 				{
 					"type": "list",
 					"items": [
 						{
 							"name": "With me, as one!",
 							"entries": [
-								"You may, after hitting a target with an attack, use your bonus action to choose up to 3 friendly creatures to gain a +2 bonus to attack rolls against a target that's already been hit by your attack."
-							]
+								"You may, after hitting a target with an attack, use your bonus action to choose up to 3 friendly creatures you can see to gain a +2 bonus to attack rolls against a target that's already been hit by your attack."
+							],
+							"type": "entries"
 						},
 						{
 							"name": "Focus Fire!",
 							"entries": [
 								"You gain +2 bonus to attack rolls against a target that's already been hit by an ally this round."
-							]
+							],
+							"type": "entries"
 						},
 						{
 							"name": "Rally to me brothers!",
 							"entries": [
-								"Choose up to 3 friendly creatures, they all gain temporary hit points equal to 1d10 + your Charisma modifier (minimum of 1)."
-							]
+								"Choose up to 3 friendly creatures you can see, they all gain temporary hit points equal to 1d10 + your Charisma modifier (minimum of 1)."
+							],
+							"type": "entries"
 						},
 						{
 							"name": "Hold the line!",
 							"entries": [
-								"Choose up to 3 friendly creatures which may include yourself; if a hostile creature comes within 5 feet of one of these creatures, said creature may use their reaction to make a single melee attack against the creature."
-							]
+								"Choose up to 3 friendly creatures you can see which may include yourself; if a hostile creature comes within 5 feet of one of these creatures, said creature may use their reaction to make a single melee attack against the creature before the end of your next turn."
+							],
+							"type": "entries"
 						}
 					]
 				},
 				"You gain two additional uses of this feature at 10th level and another two uses at 18th level."
-			],
-			"source": "PrimarisFF",
-			"page": 70,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Primaris Lieutenant",
-			"subclassSource": "PrimarisFF",
-			"level": 3,
-			"header": 1
+			]
 		},
 		{
 			"name": "Weapon Drills",
 			"source": "PrimarisFF",
-			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Primaris Lieutenant",
@@ -116,7 +118,6 @@
 		{
 			"name": "Additional Combat Tactics",
 			"source": "PrimarisFF",
-			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Primaris Lieutenant",
@@ -130,7 +131,6 @@
 		{
 			"name": "Know No Fear",
 			"source": "PrimarisFF",
-			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Primaris Lieutenant",
@@ -142,23 +142,8 @@
 			]
 		},
 		{
-			"name": "Improved Weapon Drills",
-			"source": "PrimarisFF",
-			"page": 70,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Primaris Lieutenant",
-			"subclassSource": "PrimarisFF",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Starting at 15th level your bonus from Weapon Drills increases to +2."
-			]
-		},
-		{
 			"name": "Gene-forged Might",
 			"source": "PrimarisFF",
-			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Primaris Lieutenant",
@@ -170,9 +155,21 @@
 			]
 		},
 		{
+			"name": "Improved Weapon Drills",
+			"source": "PrimarisFF",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Primaris Lieutenant",
+			"subclassSource": "PrimarisFF",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level your bonus from Weapon Drills increases to +2."
+			]
+		},
+		{
 			"name": "Additional Combat Tactics",
 			"source": "PrimarisFF",
-			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Primaris Lieutenant",
@@ -186,7 +183,6 @@
 		{
 			"name": "Tactical Precision",
 			"source": "PrimarisFF",
-			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Primaris Lieutenant",
@@ -194,7 +190,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level your battle prowess allows you and your close allies to strike true against the enemy. You and allied creatures within 10ft. of you can roll the damage dice for their attacks twice and choose the higher result."
+				"At 18th level your battle prowess allows you and your close allies to strike true against the enemy. You and allied creatures within 10ft. of you can roll the damage dice for their weapon attacks twice and choose the higher result."
 			]
 		}
 	]

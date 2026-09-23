@@ -5,25 +5,179 @@
 				"json": "tnaoj",
 				"abbreviation": "tnaoj",
 				"full": "The Noble Art of Jousting",
+				"url": "https://www.dmsguild.com/product/212587/The-Noble-Art-of-Jousting",
+				"version": "1.0",
 				"authors": [
 					"Richard Bastow"
 				],
 				"convertedBy": [
 					"Modnar"
 				],
-				"version": "1.0",
-				"url": "https://www.dmsguild.com/product/212587/The-Noble-Art-of-Jousting",
 				"targetSchema": "1.0.0"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1549715846,
-		"dateLastModified": 1549715846
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "0031cd97f1"
 	},
+	"table": [
+		{
+			"name": "Accident Table",
+			"source": "tnaoj",
+			"caption": "Accident Table",
+			"colLabels": [
+				"d10",
+				"Outcome"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"1-2",
+					"Thrown from horse."
+				],
+				[
+					"3-4",
+					"Hit the Dirt."
+				],
+				[
+					"5-6",
+					"Calamity."
+				],
+				[
+					"7-8",
+					"Foul Blow."
+				],
+				[
+					"9-10",
+					"Carnage."
+				]
+			]
+		},
+		{
+			"name": "Opponent difficulty at each stage",
+			"source": "tnaoj",
+			"caption": "Opponent difficulty at each stage",
+			"colLabels": [
+				"Stage",
+				"Opponent"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Qualifying",
+					"Amateur"
+				],
+				[
+					"Last 32",
+					"Standard"
+				],
+				[
+					"Last 16",
+					"Veteran/Standard"
+				],
+				[
+					"Last 8",
+					"Veteran"
+				],
+				[
+					"Last 4",
+					"Elite"
+				],
+				[
+					"Final",
+					"Elite"
+				]
+			]
+		},
+		{
+			"name": "Popularity Modifiers",
+			"source": "tnaoj",
+			"caption": "Popularity Modifiers",
+			"colLabels": [
+				"PC Condition",
+				"Modifier"
+			],
+			"colStyles": [
+				"col-10",
+				"col-2"
+			],
+			"rows": [
+				[
+					"Has the Noble Background (or equivalent)",
+					"+5"
+				],
+				[
+					"Has the Folk Hero Background (at DMs discretion)",
+					"+5"
+				],
+				[
+					"Has previously jousted three times in the local area",
+					"+5 / -5"
+				],
+				[
+					"PC is a member of a group, country or race that is hostile to the crowd.",
+					"-5"
+				],
+				[
+					"PC is a member of a group popular with  the crowd",
+					"+5"
+				],
+				[
+					"Result of the pre-tournament parade (if advanced rules used)",
+					"+5 / -5"
+				]
+			]
+		},
+		{
+			"name": "Tournament Stages",
+			"source": "tnaoj",
+			"caption": "Tournament Stages",
+			"colLabels": [
+				"Stage",
+				"Jousting Rules"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Parade",
+					"where jousters can show off their skills."
+				],
+				[
+					"Qualify",
+					"Contenders reduced to 32 in number."
+				],
+				[
+					"Eliminate",
+					"Contenders fight in paired jousts until only two remain."
+				],
+				[
+					"Final",
+					"The last two contenders face each other in an extended joust."
+				],
+				[
+					"Prizes",
+					"Reward, but only for the winner."
+				]
+			]
+		}
+	],
 	"book": [
 		{
 			"name": "The Noble Art of Jousting",
 			"id": "tnaoj",
 			"source": "tnaoj",
+			"group": "homebrew",
+			"published": "2017-05-23",
 			"contents": [
 				{
 					"name": "Introduction to Jousting"
@@ -50,7 +204,6 @@
 		{
 			"id": "tnaoj",
 			"source": "tnaoj",
-			"name": "The Noble Art of Jousting",
 			"data": [
 				{
 					"type": "section",
@@ -107,7 +260,6 @@
 								"Jousting tournaments have five stages including a prize-giving ceremony.",
 								{
 									"type": "table",
-									"name": "Tournament Stages",
 									"caption": "Tournament Stages",
 									"colLabels": [
 										"Stage",
@@ -227,7 +379,6 @@
 										"The simplest approach to running a tournament is to only plan the jousts that are actually needed. Contests between NPCs will not be considered. This is by far the easiest means to plan a tournament, especially when there is only one PC participating. The table below shows the level of opponent a PC will face as they progress through the tournament.",
 										{
 											"type": "table",
-											"name": "Opponent difficulty at each stage",
 											"caption": "Opponent difficulty at each stage",
 											"colLabels": [
 												"Stage",
@@ -393,7 +544,7 @@
 												"A PC can use a jousting dice at any time during a joust. By expending a jousting dice a PC can do any of the following.",
 												{
 													"type": "list",
-													"entries": [
+													"items": [
 														"Re-roll an attack.",
 														"Add D10 additional damage to a hit.",
 														"Re-roll an animal handling save to stay on their horse after being hit.",
@@ -433,9 +584,7 @@
 										"To calculate the popularity of a PC perform the following quick calculation at the start of the tournament and add the result of a d20 dice roll. Unless you are using the advanced rules, this figure will be fixed throughout the tournament.",
 										{
 											"type": "table",
-											"name": "Popularity Modifiers",
 											"caption": "Popularity Modifiers",
-											"source": "tnaoj",
 											"colLabels": [
 												"PC Condition",
 												"Modifier"
@@ -480,7 +629,7 @@
 										"Most participants at a tournament will work hard to win the crowd's favour, the most popular of these are sometimes referred to as \"Golden Heroes\" and enjoy huge popularity. Some participants go for the opposite approach making themselves deliberately unpopular. These \"Dark Knights\" seem to feed off the hostility of the crowd giving themselves increased strength.",
 										{
 											"type": "list",
-											"entries": [
+											"items": [
 												"A golden hero is any combatant that has a crowd rating of over 30.",
 												"A dark knight is any combatant that has a crowd rating of below zero."
 											]
@@ -620,7 +769,6 @@
 										{
 											"type": "table",
 											"caption": "Accident Table",
-											"source": "tnaoj",
 											"colLabels": [
 												"d10",
 												"Outcome"
@@ -784,156 +932,6 @@
 						}
 					]
 				}
-			]
-		}
-	],
-	"table": [
-		{
-			"name": "Tournament Stages",
-			"source": "tnaoj",
-			"caption": "Tournament Stages",
-			"colLabels": [
-				"Stage",
-				"Jousting Rules"
-			],
-			"colStyles": [
-				"col-4",
-				"col-8"
-			],
-			"rows": [
-				[
-					"Parade",
-					"where jousters can show off their skills."
-				],
-				[
-					"Qualify",
-					"Contenders reduced to 32 in number."
-				],
-				[
-					"Eliminate",
-					"Contenders fight in paired jousts until only two remain."
-				],
-				[
-					"Final",
-					"The last two contenders face each other in an extended joust."
-				],
-				[
-					"Prizes",
-					"Reward, but only for the winner."
-				]
-			]
-		},
-		{
-			"source": "tnaoj",
-			"name": "Opponent difficulty at each stage",
-			"caption": "Opponent difficulty at each stage",
-			"colLabels": [
-				"Stage",
-				"Opponent"
-			],
-			"colStyles": [
-				"col-4",
-				"col-8"
-			],
-			"rows": [
-				[
-					"Qualifying",
-					"Amateur"
-				],
-				[
-					"Last 32",
-					"Standard"
-				],
-				[
-					"Last 16",
-					"Veteran/Standard"
-				],
-				[
-					"Last 8",
-					"Veteran"
-				],
-				[
-					"Last 4",
-					"Elite"
-				],
-				[
-					"Final",
-					"Elite"
-				]
-			]
-		},
-		{
-			"name": "Popularity Modifiers",
-			"caption": "Popularity Modifiers",
-			"source": "tnaoj",
-			"colLabels": [
-				"PC Condition",
-				"Modifier"
-			],
-			"colStyles": [
-				"col-10",
-				"col-2"
-			],
-			"rows": [
-				[
-					"Has the Noble Background (or equivalent)",
-					"+5"
-				],
-				[
-					"Has the Folk Hero Background (at DMs discretion)",
-					"+5"
-				],
-				[
-					"Has previously jousted three times in the local area",
-					"+5 / -5"
-				],
-				[
-					"PC is a member of a group, country or race that is hostile to the crowd.",
-					"-5"
-				],
-				[
-					"PC is a member of a group popular with  the crowd",
-					"+5"
-				],
-				[
-					"Result of the pre-tournament parade (if advanced rules used)",
-					"+5 / -5"
-				]
-			]
-		},
-		{
-			"name": "Accident Table",
-			"caption": "Accident Table",
-			"source": "tnaoj",
-			"colLabels": [
-				"d10",
-				"Outcome"
-			],
-			"colStyles": [
-				"col-3 text-center",
-				"col-9"
-			],
-			"rows": [
-				[
-					"1-2",
-					"Thrown from horse."
-				],
-				[
-					"3-4",
-					"Hit the Dirt."
-				],
-				[
-					"5-6",
-					"Calamity."
-				],
-				[
-					"7-8",
-					"Foul Blow."
-				],
-				[
-					"9-10",
-					"Carnage."
-				]
 			]
 		}
 	]

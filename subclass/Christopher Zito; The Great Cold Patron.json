@@ -5,8 +5,8 @@
 				"json": "TGCP",
 				"abbreviation": "TGCP",
 				"full": "The Great Cold Patron",
-				"version": "1.1.1",
 				"url": "https://www.dmsguild.com/product/297510/The-Great-Cold-Patron",
+				"version": "1.1.1",
 				"authors": [
 					"Christopher Zito"
 				],
@@ -16,25 +16,56 @@
 				"color": "acfafa"
 			}
 		],
+		"edition": "classic",
+		"unlisted": true,
 		"dateAdded": 1578188666,
-		"dateLastModified": 1580933076,
-		"unlisted": true
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "3093ccd9a4"
 	},
 	"subclass": [
 		{
 			"name": "The Great Cold",
+			"shortName": "Great Cold",
 			"source": "TGCP",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"ice knife|xge",
+							"shield"
+						],
+						"s2": [
+							"blur",
+							"hold person"
+						],
+						"s3": [
+							"slow",
+							"wind wall"
+						],
+						"s4": [
+							"hallucinatory terrain",
+							"ice storm"
+						],
+						"s5": [
+							"cone of cold",
+							"hold monster"
+						]
+					}
+				}
+			],
 			"subclassSpells": [
-				"Shield",
-				"Ice Knife",
-				"Blur",
-				"Hold Person",
-				"Slow",
-				"Wind Wall",
-				"Hallucinatory Terrain",
-				"Ice Storm",
-				"Cone of Cold",
-				"Hold Monster"
+				"shield",
+				"ice knife|xge",
+				"blur",
+				"hold person",
+				"slow",
+				"wind wall",
+				"hallucinatory terrain",
+				"ice storm",
+				"cone of cold",
+				"hold monster"
 			],
 			"subclassFeatures": [
 				"The Great Cold|Warlock||Great Cold|TGCP|1",
@@ -42,62 +73,7 @@
 				"Layer of Ice|Warlock||Great Cold|TGCP|6",
 				"Frostbite|Warlock||Great Cold|TGCP|10",
 				"Ice Prison|Warlock||Great Cold|TGCP|14"
-			],
-			"shortName": "Great Cold",
-			"spells": [
-				{
-					"expanded": {
-						"1": [
-							"ice knife",
-							"shield"
-						],
-						"2": [
-							"blur",
-							"hold person"
-						],
-						"3": [
-							"slow",
-							"wind wall"
-						],
-						"4": [
-							"hallucinatory terrain",
-							"ice storm"
-						],
-						"5": [
-							"cone of cold",
-							"hold monster"
-						]
-					}
-				}
-			],
-			"additionalSpells": [
-				{
-					"expanded": {
-						"1": [
-							"ice knife",
-							"shield"
-						],
-						"2": [
-							"blur",
-							"hold person"
-						],
-						"3": [
-							"slow",
-							"wind wall"
-						],
-						"4": [
-							"hallucinatory terrain",
-							"ice storm"
-						],
-						"5": [
-							"cone of cold",
-							"hold monster"
-						]
-					}
-				}
-			],
-			"className": "Warlock",
-			"classSource": "PHB"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -131,7 +107,7 @@
 							"rows": [
 								[
 									"1st",
-									"{@spell ice knife}, {@spell shield}"
+									"{@spell ice knife|xge}, {@spell shield}"
 								],
 								[
 									"2nd",
@@ -160,11 +136,7 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Crippling Cold",
-			"entries": [
-				"Starting at 1st level, any time you hit a target with an attack that deals cold damage, you add your Charisma modifier + your Warlock level to the damage dealt."
-			],
 			"source": "TGCP",
 			"page": 105,
 			"className": "Warlock",
@@ -172,7 +144,10 @@
 			"subclassShortName": "Great Cold",
 			"subclassSource": "TGCP",
 			"level": 1,
-			"header": 1
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, any time you hit a target with an attack that deals cold damage, you add your Charisma modifier + your Warlock level to the damage dealt."
+			]
 		},
 		{
 			"name": "Spectral Owl",

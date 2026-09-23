@@ -1,35 +1,38 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "TeasandTisanes",
 				"abbreviation": "TT",
 				"full": "Teas and Tisanes",
+				"url": "https://www.dmsguild.com/product/250881/WH-Teas-and-Tisanes-brewed-beverage-options-for-all-settings-and-characters",
+				"version": "0.0.1",
 				"authors": [
 					"Walrock Homebrew"
 				],
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"url": "https://www.dmsguild.com/product/250881/WH-Teas-and-Tisanes-brewed-beverage-options-for-all-settings-and-characters",
-				"beginningDate": "07-08-2020",
-				"version": "0.0.1",
 				"color": "31572e"
 			}
 		],
-		"ItemTypes": {},
+		"edition": "classic",
 		"dateAdded": 1596800998,
-		"dateLastModified": 1596800995
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "cf0ed1ce71"
 	},
 	"book": [
 		{
 			"name": "Teas and Tisanes",
 			"id": "TTea",
 			"source": "TeasandTisanes",
-			"coverUrl": "https://i.imgur.com/k2YSWXC.png",
-			"author": "Walrock Homebrew",
+			"group": "homebrew",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TeasandTisanes/k2YSWXC.png"
+			},
 			"published": "2018-08-26",
+			"author": "Walrock Homebrew",
 			"contents": [
 				{
 					"name": "Teas & Tisanes"

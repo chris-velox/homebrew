@@ -5,26 +5,39 @@
 				"json": "COK",
 				"abbreviation": "COK",
 				"full": "Crypts of Kelemvor",
+				"url": "https://media.wizards.com/2018/dnd/dragon/18/DRA18_CryptsKelemvor.pdf",
+				"version": "1.0.0",
 				"authors": [
-					"Thomas Foss",
-					"Scott Fitzgerald Gray"
+					"Scott Fitzgerald Gray",
+					"Thomas Foss"
 				],
 				"convertedBy": [
 					"Surge"
 				],
-				"version": "1.0.0",
-				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.0.0"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1600868694,
-		"dateLastModified": 1600868694
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "c6c9f84371"
 	},
 	"adventure": [
 		{
 			"name": "Crypts of Kelemvor",
 			"id": "COK",
 			"source": "COK",
+			"group": "other",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/COK/COK-cover.webp"
+			},
+			"published": "2018-02-26",
+			"storyline": "Dragon+",
+			"level": {
+				"start": 3,
+				"end": 5
+			},
 			"contents": [
 				{
 					"name": "Introduction",
@@ -58,14 +71,7 @@
 						"Epilogue"
 					]
 				}
-			],
-			"level": {
-				"start": 3,
-				"end": 5
-			},
-			"published": "2018-02-26",
-			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/COK/COK-cover.webp",
-			"storyline": "Dragon+"
+			]
 		}
 	],
 	"adventureData": [
@@ -93,7 +99,7 @@
 							"id": "Running the Adventure",
 							"entries": [
 								"This is a classic dungeon delve, but with a number of MMORPG twists. The characters are tasked with finding and collecting items, but must also \"click\" parts of the environment as they explore--the braziers whose magical light is anathema to undead. In addition to the normal tricks the adventurers can use as they face off against the undead of the crypts, the light of the sacred braziers can be used as a weapon. Additionally, the end of the scenario gives the characters a chance to interact with another adventuring party--a band known as the Grave Robbers.",
-								"{@b Sacred Braziers of Balance.} When one of these magical braziers is lit, its fire bursts forth in a bright blue flame that fills a 25-foot-radius area with bright blue-white light. For the first 3 rounds after a brazier is lit, any undead creature that starts its turn within the brazier's light takes 16 ({@dice 3d10}}) radiant damage--presenting a significant threat to such creatures. The length of time it takes to light the braziers is the wild card. A character adjacent to a brazier must use an action to light it, but doing so requires a special striking rod and stone, as.  well as a successful DC 12 Dexterity check.",
+								"{@b Sacred Braziers of Balance.} When one of these magical braziers is lit, its fire bursts forth in a bright blue flame that fills a 25-foot-radius area with bright blue-white light. For the first 3 rounds after a brazier is lit, any undead creature that starts its turn within the brazier's light takes 16 ({@dice 3d10}) radiant damage--presenting a significant threat to such creatures. The length of time it takes to light the braziers is the wild card. A character adjacent to a brazier must use an action to light it, but doing so requires a special striking rod and stone, as.  well as a successful DC 12 Dexterity check.",
 								"{@b The Grave Robbers.} Before the main boss fight at the end of the scenario, the characters come across an adventuring party known as the Grave Robbers. Three of that party's original four members face off against the characters (with their cleric having been found eaten in an earlier part of the dungeon). You can play the Grave Robbers as greedy and spoiling for a fight, or you can portray them as pragmatic and willing to work with the characters to complete their exploration of the dungeon.",
 								"{@b Monsters.} Statistics blocks for the undead and other monsters of the crypts appear in an appendix at the end of the adventure."
 							]
@@ -112,7 +118,8 @@
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/COK/COK-region.webp"
 							},
-							"title": "Map of the Region"
+							"title": "Map of the Region",
+							"imageType": "map"
 						},
 						"The villagers of Grimhollow have watched over these grounds for many years, with each generation passing on the duties to their children. Under their watchful eyes, the Ebon Downs have seen peace.",
 						"But one night, that peace was shattered forever.  Whether due to a lapse in Grimhollow's vigil or some unknown power, the dead rose in force from the burial grounds and attacked the village, overwhelming its citizens. Those few lucky enough to escape spoke of a dark magic that caused those killed in the attack to rise as undead almost as soon as the life had left their bodies.",
@@ -618,7 +625,7 @@
 												"The figure with the sword seems impatient as he grunts, \"You going to be there all day? Or should | smash it open now?\"",
 												"A figure closer to the door snarls back, \"I'm a mage, not a rogue. There are heavy wards and strong magic keeping this door sealed.\"",
 												"\"So you try, then,\" the warrior says to someone unseen.",
-												"\"I told you, it's a magic seal,\" a third voice says. \"Not my thing... Wait ... what's that?\"",
+												"\"I told you, it's a magic seal,\" a third voice says. \"Not my thing... Wait... what's that?\"",
 												"Suddenly, the third figure steps out from behind a pillar--an archer with bow drawn. \"We have company,\" she calls to her companions."
 											]
 										},

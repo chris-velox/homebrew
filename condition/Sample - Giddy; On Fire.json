@@ -4,32 +4,39 @@
 			{
 				"json": "GiddyCondition",
 				"abbreviation": "Brew",
-				"full": "TheGiddyLimit",
-				"authors": [
-					"TheGiddyLimit"
-				],
-				"version": "1.0.0",
+				"full": "Sample",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
-				"targetSchema": "1.1.0"
+				"version": "1.0.1",
+				"authors": [
+					"Giddy"
+				]
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "89954eb4ce"
+	},
+	"_test": {
+		"references": [
+			"GiddyAction"
+		]
 	},
 	"condition": [
 		{
 			"name": "On Fire",
+			"source": "GiddyCondition",
+			"page": 451,
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A creature who is on fire takes {@dice 2d6} damage at the start of each of their turns.",
+						"A creature who is on fire takes {@damage 2d6} damage at the start of each of their turns.",
 						"The creature sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
-						"The effect can be ended early with the {@action Extinguish} action."
+						"The effect can be ended early with the {@action Extinguish|GiddyAction} action."
 					]
 				}
-			],
-			"source": "GiddyCondition"
+			]
 		}
 	]
 }
